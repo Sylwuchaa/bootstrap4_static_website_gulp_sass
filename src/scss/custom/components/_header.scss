@@ -1,0 +1,13 @@
+.fp-header-item-link {
+    font-size: .65rem;
+    @include media-breakpoint-up(md) {
+        padding: 1.65rem 1.25rem;
+    }
+
+}
+
+// aktywna pozycja menu
+
+.fp-header-item-active {
+    background-color: $fp-white;
+}
