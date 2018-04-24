@@ -14,7 +14,7 @@
     opacity: $opacity;
 }
 
-// pozycja relatywna i zewiekszony zindex
+// pozycja relatywna i zwiekszony zindex
 @mixin fp-relative-zindex() {
     position: relative;
     z-index: 199;

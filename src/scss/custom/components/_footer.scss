@@ -12,3 +12,14 @@
 .fp-footer-top-content {
     @include fp-relative-zindex;
 }
+.fp-footer-text {
+    font-size: .75rem;
+    color: $gray-600;
+
+}
+
+.fp-footer-p {
+    line-height: 2;
+
+
+}
