@@ -1,0 +1,14 @@
+// górny wiersz stopki 
+.fp-footer-top {
+    position: relative;
+    padding: 80px 0 20px;
+    background: url('http://unsplash.it/1472/492?random&gravity=center') 50% 50% no-repeat; 
+    background-size: cover;
+    &:after {
+        @include fp-bg-overlay($fp-black, .75);
+    }
+}
+
+.fp-footer-top-content {
+    @include fp-relative-zindex;
+}
