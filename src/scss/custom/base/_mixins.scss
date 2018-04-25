@@ -1,5 +1,4 @@
 // nakładka w tle 
-
 @mixin fp-bg-overlay($color, $opacity) {
     position: absolute;
     top: 0;
@@ -18,4 +17,11 @@
 @mixin fp-relative-zindex() {
     position: relative;
     z-index: 199;
+}
+
+
+// rozmiar
+@mixin fp-size($w, $h) {
+    width: $w;
+    height: $h;
 }
