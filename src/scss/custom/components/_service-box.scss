@@ -1,0 +1,35 @@
+.fp-services-box {
+    margin-bottom: 40px;
+}
+.fp-services-box-top {
+    margin-bottom: 1.4rem;
+}
+
+.fp-services-box-img {
+    margin: 10px 20px 0 10px;
+    @include fp-relative-zindex;
+}
+.fp-services-box-title {
+    margin-top: 1.75rem;
+}
+.fp-services-box-header {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    @include fp-font-light-secondery;
+
+}
+.fp-services-box-text {
+    line-height: 2;
+}
+
+.fp-services-box-shadow {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    background-color: rgba($fp-black, .060);
+    @include fp-size(85px, 85px);
+
+}
+.fp-services-box-active {
+    background-color: rgba($fp-gray-900, 1);
+}
