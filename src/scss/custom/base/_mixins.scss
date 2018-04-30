@@ -30,3 +30,7 @@
     font-weight: 300;
     font-family: $fp-font-family-secondery;
 }
+
+@mixin fp-basic-transition {
+    transition: all .25s ease-in-out;
+}

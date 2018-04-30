@@ -1,3 +1,15 @@
+@mixin fp-services-item-active {
+    background-color: $gray-900;
+    a {
+        color: $fp-white;
+        text-decoration: none;
+    }
+    img {
+        filter: brightness(5);
+    }
+}
+
+
 .fp-services-group {
     height: 100px;
     background: url('/images/bg/bg-icons.jpg') 50% 50% no-repeat;
@@ -7,14 +19,25 @@
 }
 
 .fp-services-item {
+
     padding: 1rem 1.3rem 0;
     text-align: center;
     @include fp-size(25%,100%);
+    &:hover {
+        @include fp-services-item-active;
+        @include fp-basic-transition;
+    }
+    a {
+        pointer-events: auto;
+    }
 }
-
-.fp-services-item-title {
+.fp-service-item-title {
     margin-top: .25rem;
     @include fp-font-light-secondery;
     font-size: .6875rem;
 
+}
+
+.fp-services-item-active {
+    @include fp-services-item-active;
 }

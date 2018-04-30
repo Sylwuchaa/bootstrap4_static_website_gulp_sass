@@ -1,0 +1,32 @@
+.fp-portfolio-box {
+    position: relative;
+}
+
+.fp-portfolio-box-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 65%;
+    margin: 0 auto;
+    z-index: 1000;
+    transform: translateY(-50%);
+
+}
+.fp-portfolio-box-title {
+    margin-bottom: 1.2rem;
+    font-size: 1.55rem;
+    letter-spacing: .2rem;
+
+.fp-portfolio-box-img {
+    max-width: 550px;
+}    
+.fp-portfolio-box.featured {
+    max-width: 550px;
+}
+}
+.fp-portfolio-img-overlay {
+    &:after {
+        @include fp-bg-overlay($fp-accent-color, .89);
+    }
+}
