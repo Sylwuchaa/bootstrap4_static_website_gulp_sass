@@ -25,3 +25,8 @@
     width: $w;
     height: $h;
 }
+// tekst 300 secoundary
+@mixin fp-font-light-secondery {
+    font-weight: 300;
+    font-family: $fp-font-family-secondery;
+}
